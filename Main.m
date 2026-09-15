@@ -57,7 +57,6 @@ Elems.Myosin_c = ones(num,3);
 
 GammaL_index = [zeros(3*Tamp,1); linspace(0,1,1.5*Tamp)'; ones(floor(0.5*Tamp),1)]; % Lateral Tension increases
 
-
 % Experimental measurements
 Exp_Hpf = (13.5 : 0.5 : 18)';
 Exp_InvagDepth = [0; 0; 0; 0; 0.05; 0.751619048; 1.807636364; 2.8173; 4.238761905; 6.5409];
